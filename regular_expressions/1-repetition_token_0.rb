@@ -5,9 +5,8 @@
 input = ARGV[0]
 
 # Regex pattern with repetition token
-# Example: matches 'hbt', 'hbtn', 'hbtnt', etc. depending on instructions
-pattern = /hbtn/
-
+# Example: matches 'hbt', 'hbtn', 'hbtnt', etc. depending on instruction
+pattern = /hbtt?n/
 # Print all matches without spaces
 matches = input.scan(pattern)
 puts matches.join
